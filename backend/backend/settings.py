@@ -31,12 +31,22 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'unfold',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'rest_framework',
+    'core',
+    'users',
+    'products',
+    'orders',
+    'cart',
+    'payment',
+    'utils',
+    # Third-party apps
 ]
 
 MIDDLEWARE = [
